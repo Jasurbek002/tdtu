@@ -1,0 +1,26 @@
+.Navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+    background-color:#5039e4;
+    &__nav{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__item{
+            list-style: none;
+            &__link{
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                font-weight: 400;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                @apply animate-pulse 
+
+            }
+        }
+    }
+}
+
