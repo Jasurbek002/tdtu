@@ -20,7 +20,8 @@ module.exports = {
       grey:'#9333ea',
       oqroq:'#f8fafc',
       kokroq:'#f0f9ff',
-      gradentGray:'linear-gradient(0deg, rgba(154,58,241,1) 24%, rgba(187,139,231,1) 68%);'
+      gradentGray:'linear-gradient(0deg, rgba(154,58,241,1) 24%, rgba(187,139,231,1) 68%);',
+
     },
   },
   plugins: [],

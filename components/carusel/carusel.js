@@ -8,6 +8,7 @@ import image from '../../public/assets/images/fon.jpg'
 import Image from 'next/image';
 
 function Carusel() {
+ 
     return(
         <div className={styles.Carusel}>
         
@@ -25,7 +26,10 @@ function Carusel() {
       ...
     </Swiper>
     <div className={styles.Carusel__blur}>
-      <h1>Universitetimizda bugun</h1>
+      <h1 data-text={`Universitetimizda bugun`} >Universitetimizda bugun</h1>
+      <p className='text-white mx-16 mt-10'>Innovatsion loyhalar taqdimoti bo'lib o'tdi. Unda Ko'plab ilg'or texnologiyalar
+      taqdim etildi
+      </p>
     </div>
         </div>
     )

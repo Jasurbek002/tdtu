@@ -15,11 +15,16 @@ const Fuculy = () => {
   ]
 
     return (
-        <div className={'w-full flex flex-wrap items-center justify-evenly mt-10'}>
+        <div className={'w-full flex flex-wrap items-center justify-evenly mt-10 '}>
+           <div className='flex w-full items-center justify-evenly my-20'>
+                <span className="w-96 h-1 bg-blue"></span>
+                <h1 className='text-grey text-2xl'>Fakultetlar</h1>
+                <span className="w-96 h-1 bg-blue"></span>
+            </div>
          {
              fuculty.map((el) =>{
               return (
-                <div key={el.id} className={'flex items-center justify-evenly items-center justify-center shadow-md w-80 border-2 border-oqroq  h-20 m-3  bg-kokroq rounded-xl'}>
+                <div key={el.id} className={'flex items-center justify-between items-center justify-around shadow-md w-80 border-2 border-oqroq  h-20 m-3  bg-kokroq rounded-xl'}>
                   <Image className={'w-7 h-7'} src={settings} alt='icon' />
                    <p className={'text-grey'}>{el.name}</p>
                 </div>
